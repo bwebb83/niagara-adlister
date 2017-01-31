@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <%@ include file="navbar.jsp" %>
     <title>Profile</title>
 </head>
 <body>
-
+<%@ include file="partials/navbar.jsp" %>
+<h1>Profile</h1>
 </body>
 </html>

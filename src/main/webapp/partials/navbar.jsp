@@ -68,9 +68,9 @@
 <header>
     <div class = "nav">
         <ul>
-            <li class="home"><a class="active" href="#">Home</a></li>
-            <li class="tutorials"><a href="partials/login.jsp">Login</a></li>
-            <li class="about"><a href="partials/profile.jsp">Profile</a></li>
+            <li class="home"><a class="active" href="/index">Home</a></li>
+            <li class="tutorials"><a href="/login">Login</a></li>
+            <li class="about"><a href="/profile">Profile</a></li>
             <li class="news"><a href="#">Newsletter</a></li>
             <li class="contact"><a href="#">Contact</a></li>
         </ul>
