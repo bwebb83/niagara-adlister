@@ -1,8 +1,7 @@
 import java.util.List;
 
 public interface Ads {
-    // get a list of all the ads
-    List<Ad> all();
-    // insert a new ad and return the new ad's id
-    Long insert(Ad ad);
+    List<Ad> all(); //throws SQLException;  // not all implementations will throw this exception
+    void insert(Ad ad);
+    Ad find(long id);
 }
